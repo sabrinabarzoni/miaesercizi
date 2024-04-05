@@ -8,27 +8,33 @@
 </head>
 
 <body>
-    <form>
-        <input type="text" id="testo" name="testo">
-        <textarea name="testo" id="testo" cols="10" rows="5"></textarea>
+    <form action="" method="get">
+        <div>
+            <label for="nome">Scrivi:</label>
+            <input type="text" id="nome" name="nome">
+        </div>
+        <div>
+            <label for="testo">Testo:</label>
+            <textarea name="testo" id="testo" cols="10" rows="5"></textarea>
+        </div>
+        <div>
+            <label for="cognome">Cognome:</label>
+            <input type="text" id="cognome" name="cognome">
+        </div>
+        <div>
+          <p>Sesso:</p>
+            <input type="radio" name="sesso" value="Femmina">Femmina
+            <input type="radio" name="sesso" value="Maschio">Maschio
+        </div>
+        <div>
+            <p>Privacy&Policy</p>
+            <input type="checkbox" name="accetto" value="accetto" required>Privacy
+            <input type="checkbox" name="accetto" value="accetto" required>Policy
+        </div>
+        <div>
+            <input type="submit" name="submit" value="INVIA">
+        </div>
     </form>
-    <form >
-        <label for="cognome">Cognome:</label>
-        <input type="text" id="cognome" name="cognome">
-    </form>
-    <form>
-        <label for="sesso">sesso</label>
-        <input type="radio" name="sesso" value="Femmina">Femmina
-        <input type="radio" name="sesso" value="Maschio">Maschio
-    </form>
-   <form action="/submit_form.php" method="get">
-        <label for="Privacy&Policy">Privacy&Policy</label>
-        <input type="checkbox" name="accetto" value="accetto" required>Privacy
-        <input type="checkbox" name="accetto" value="accetto" required>Policy
-    <button>
-        <input type="submit" name="submit">
-    </button>
-</form>
 </body>
 
 </html>
