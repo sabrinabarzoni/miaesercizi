@@ -77,30 +77,26 @@
                 <div class="form__compilation">
                     <form>
                         <label for="email">Email:</label>
-                        <input type="email" id="email" name="email">
+                        <input type="email" id="email" name="email" required>
+                        <p>Sesso:</p>
+                        <input type="radio" id="maschio" name="sesso" value="maschio" required>
+                        <label for="maschio">Maschio</label>
+                        <input type="radio" name="sesso" id="femmina" value="femmina" required>
+                        <label for="femmina">Femmina</label>
+                        <p>Accetto:</p>
+                        <input type="checkbox" name="condizioni" id="condizioni" value="termini e condizioni" required>
+                        <label for="termini e condizioni">Termini e condizioni</label>
+                        <input type="checkbox" name="privacy" id="privacy" value="privacy" required>
+                        <label for="privacy">Privacy</label>
+                        <input type="submit" value="INVIA">
                     </form>
-                    <form>
-                    <p>Sesso:</p>
-                    <input type="radio" id="maschio" name="sesso" value="maschio">
-                    <label for="maschio">Maschio</label>
-                    <input type="radio" name="sesso" id="femmina" value="femmina">
-                    <label for="femmina">Femmina</label>
-                </form>
-                <form>
-                    <p>Accetto:</p>
-                    <input type="checkbox" name="condizioni" id="condizioni" value="termini e condizioni" required>
-                    <label for="termini e condizioni">Termini e condizioni</label>
-                    <input type="checkbox" name="privacy" id="privacy" value="privacy" required>
-                    <label for="privacy">Privacy</label>
-                    <input type="submit" value="INVIA">
-                </form>
                 </div>
             </div>
         </section>
     </main>
     <footer>
-     <p>&copy;2024 Il cucchiaio d'argento. Tutti i diritti riservati</p>
-    </div>
+        <p>&copy;2024 Il cucchiaio d'argento. Tutti i diritti riservati</p>
+        </div>
     </footer>
 </body>
 
