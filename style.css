@@ -2,3 +2,26 @@ p {
     color: red;
     text-align: right;
 }
+
+h1 {
+    color: orange;
+}
+
+h2 {
+    color: lightblue;
+}
+
+h3 {
+    color: yellow;}
+
+h4 {
+    color: pink;
+}
+
+h5 {
+    color: lightgreen;
+}
+
+h6 {
+    color:black;
+}
