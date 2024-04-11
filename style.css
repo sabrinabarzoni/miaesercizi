@@ -27,6 +27,25 @@ h6 {
     color:black;
 }
 
-.font{
+.font {
 font-size: 30px;
+}
+
+.size_test {
+text-align: right;
+font-style: oblique;
+font-weight: 100;
+
+}
+
+.underlined_title {
+text-decoration: underline;
+text-align: center;
+}
+
+.first_letter {
+    background-color:rgb(241, 231, 231);
+    color: aliceblue;
+   font-style: italic;
+
 }
