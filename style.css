@@ -80,3 +80,15 @@ ul li:last-child {
     color: orange;
     font-style: italic;
 }
+
+p {
+    color: pink;
+}
+
+.color__c::first-letter {
+color: aqua;
+}
+
+#color__i::first-line{
+    color: brown;
+}
