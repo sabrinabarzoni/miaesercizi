@@ -60,7 +60,7 @@ h1, p, h6{
     text-decoration: underline;
 } 
 
-a :hover {
+a:hover {
     color: coral;
 }
 
