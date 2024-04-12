@@ -75,3 +75,8 @@ a:hover {
 .text {
     text-align: center;
 }
+
+ul li:last-child {
+    color: orange;
+    font-style: italic;
+}
