@@ -92,3 +92,10 @@ color: aqua;
 #color__i::first-line{
     color: brown;
 }
+
+
+
+#alignement_color {
+    color: chocolate;
+    text-align: center;
+}
