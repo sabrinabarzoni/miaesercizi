@@ -63,3 +63,15 @@ h1, p, h6{
 a :hover {
     color: coral;
 }
+
+.font {
+    font-size: 500;
+}
+
+.color {
+    color: red;
+}
+
+.text {
+    text-align: center;
+}
