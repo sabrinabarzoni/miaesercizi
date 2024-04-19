@@ -1,3 +1,7 @@
- p {
+ .rgb p {
     color:rgb(255, 0, 0);
+ }
+
+ .esadecimali p {
+    color: #ff0000;
  }
