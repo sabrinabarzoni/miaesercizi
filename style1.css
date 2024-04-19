@@ -13,3 +13,10 @@
 .color p {
     color: red;
 }
+
+.square {
+
+    width: 100px; 
+    height: 100px; 
+    background-color: blue;
+}
