@@ -9,3 +9,7 @@
 .transparency p {
     color: rgba(255, 0, 0, 0.7);
 }
+
+.color p {
+    color: red;
+}
