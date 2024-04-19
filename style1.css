@@ -1,3 +1,8 @@
+ * 
+ {
+    color:var(--color-text:#ff0000)
+ }
+ 
  .rgb p {
     color:rgb(255, 0, 0);
  }
@@ -21,6 +26,19 @@
     background-color: blue;
 }
 
+.square2 {
+
+    width: 100px;
+    height: 100px;
+    background-color: #ff0000;
+}
+
+.square2 div {
+    width: 50%;
+    height: 50%;
+    background-color: yellow;
+}
+
 .rem-em :first-child {
     font-size: 7rem;
   
@@ -29,3 +47,5 @@
 .rem-em :last-child {
     font-size: 7em;
 }
+
+/*variabili*/
