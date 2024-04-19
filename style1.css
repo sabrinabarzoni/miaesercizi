@@ -5,3 +5,7 @@
  .esadecimali p {
     color: #ff0000;
  }
+
+.transparency p {
+    color: rgba(255, 0, 0, 0.7);
+}
