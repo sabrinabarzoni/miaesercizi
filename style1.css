@@ -5,6 +5,7 @@
  
  .rgb p {
     color:rgb(255, 0, 0);
+    padding: var(--padding-text);
  }
 
  .esadecimali p {
