@@ -31,3 +31,8 @@ li {
     width: 60px; ;
     display:block ;
 }
+
+.img img {
+    float: right;
+}
+
