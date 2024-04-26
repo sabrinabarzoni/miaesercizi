@@ -7,3 +7,27 @@
 li {
     display:inline-block;
 }
+
+.one {
+    border: 50px; ;
+    background-color: red ;
+    height: 60px; ;
+    width: 60px; ;
+    display:inline ;
+}
+
+.two {
+    border: 50px; ;
+    background-color: red ;
+    height: 60px; ;
+    width: 60px; ;
+    display:inline-block ;
+}
+
+.three {
+    border: 50px; ;
+    background-color: red ;
+    height: 60px; ;
+    width: 60px; ;
+    display:block ;
+}
