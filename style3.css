@@ -54,3 +54,17 @@ li {
     position: fixed;
     bottom: 0;
 }
+
+.square {
+    width: 200px;
+    height:200px;
+    background-color: red;
+    position:fixed;
+    float: right;
+    right: 0;
+    bottom: 0;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2)
+}
