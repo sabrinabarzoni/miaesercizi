@@ -39,3 +39,9 @@ li {
 .clear p {
     clear: both;
 }
+
+.column  {
+    column-count: 3;
+    float: left;
+    display: inline-block;
+}
