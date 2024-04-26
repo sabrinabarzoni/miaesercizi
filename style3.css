@@ -2,4 +2,8 @@
 .div {
     padding: 100px;
     margin: 200px;
+    border: 400px;;
+}
+li {
+    display:inline-block;
 }
