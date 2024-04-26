@@ -36,3 +36,6 @@ li {
     float: right;
 }
 
+.clear p {
+    clear: both;
+}
