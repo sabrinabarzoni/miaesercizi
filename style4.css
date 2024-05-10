@@ -11,12 +11,14 @@
     width: 200px;
     height:200px;
     background-color: red;
+    flex-shrink: 1;
 }
 
 .due {
     width: 200px;
     height:200px;
     background-color: blue;
+    flex-shrink: 0;
 }
 
 .tre {
