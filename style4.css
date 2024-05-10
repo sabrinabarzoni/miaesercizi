@@ -19,6 +19,7 @@
     height:200px;
     background-color: blue;
     flex-shrink: 0;
+    flex-basis: 500px;
 }
 
 .tre {
