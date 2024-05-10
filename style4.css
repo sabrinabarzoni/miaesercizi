@@ -1,6 +1,6 @@
 .container {
-    display: flexbox;
-    flex-direction: row;
+    display: flex;
+    flex-direction:column-reverse ;
 
 }
 
