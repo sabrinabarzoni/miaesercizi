@@ -33,6 +33,19 @@
 
 .grid-container {
     display: grid;
-
+    grid-template-columns: repeat(3, 100px)
     
+}
+
+.grid-container div {
+    border: 1px solid ;
+}
+
+.grid-container .div__otto {
+    grid-column: span 2;
+}
+
+.grid-container .div__nove {
+
+display: none;
 }
