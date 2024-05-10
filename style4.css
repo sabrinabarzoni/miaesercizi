@@ -1,8 +1,8 @@
 .container {
     display: flex;
-    flex-direction: row;
    align-items: center;
    justify-content: center;
+   align-self: flex-end;
   
 
 }
@@ -12,6 +12,7 @@
     height:200px;
     background-color: red;
     flex-shrink: 1;
+    align-self: flex-start;
 }
 
 .due {
@@ -20,6 +21,7 @@
     background-color: blue;
     flex-shrink: 0;
     flex-basis: 500px;
+    align-self: flex-end;
 }
 
 .tre {
@@ -27,4 +29,10 @@
     width: 200px;
     height:200px;
     flex-grow: 2;
+}
+
+.grid-container {
+    display: grid;
+
+    
 }
