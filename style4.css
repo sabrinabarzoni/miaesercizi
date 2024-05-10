@@ -49,3 +49,11 @@
 
 display: none;
 }
+
+.grid-container .div__uno {
+    grid-row: span 2;
+}
+
+.grid-container .div__quattro {
+    display: none;
+}
