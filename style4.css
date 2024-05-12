@@ -32,8 +32,10 @@
 }
 
 .grid-container {
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(5, 100px);
+    justify-items: center;
+    align-items: center;
    
 }
 
