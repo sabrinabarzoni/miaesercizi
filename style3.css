@@ -1,75 +1,18 @@
-
-.div {
-    padding: 100px;
-    margin: 200px;
-    border: 100px solid blue;
-}
-li {
-    display:inline-block;
+.background {
+    background-color: yellow;
+    padding: 15px;
 }
 
-.one {
-    border: 50px; ;
-    background-color: red ;
-    height: 60px; ;
-    width: 60px; ;
-    display:inline ;
+.grid__container {
+    display: flex;
+    align-content:flex-start;
+    gap: 15px;
+    flex-wrap: wrap;
+    
 }
 
-.two {
-    border: 50px; ;
-    background-color: red ;
-    height: 60px; ;
-    width: 60px; ;
-    display:inline-block ;
-}
-
-.three {
-    border: 50px; ;
-    background-color: red ;
-    height: 60px; ;
-    width: 60px; ;
-    display:block ;
-}
-
-.img img {
-    float: right;
-}
-
-.clear p {
-    clear: both;
-}
-
-.column  {
-    column-count: 3;
-    float: left;
-    display: inline-block;
-}
-
-.nav-box {
-    position:sticky;
-    top: 0;
-}
-
-.footer {
-    position: fixed;
-    bottom: 0;
-}
-
-.square {
-    width: 200px;
-    height:200px;
-    background-color: red;
-    position:fixed;
-    float: right;
-    right: 0;
-    bottom: 0;
-}
-
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2)
-}
-
-.div p {
-    display: none;
+.grid__container div {
+    background-color: aqua;
+    padding: 20px;
+    width: calc(30% - 15px);
 }
