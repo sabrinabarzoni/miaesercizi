@@ -12,7 +12,7 @@
     height:200px;
     background-color: red;
     flex-shrink: 1;
-    align-self: flex-start;
+    align-self: baseline;
 }
 
 .due {
@@ -21,7 +21,7 @@
     background-color: blue;
     flex-shrink: 0;
     flex-basis: 500px;
-    align-self: flex-end;
+    align-self:center;
 }
 
 .tre {
