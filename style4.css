@@ -3,6 +3,7 @@
    align-items: center;
    justify-content: center;
    align-self: flex-end;
+   flex-direction: column;
   
 
 }
@@ -11,8 +12,6 @@
     width: 200px;
     height:200px;
     background-color: red;
-    flex-shrink: 1;
-    align-self: baseline;
 }
 
 .due {
