@@ -1,5 +1,24 @@
-.full_screen {
-    width: 100vw;
-    height: 100vh;
-    background-color: rgb(244, 203, 209);
+.titolo h1 {
+  color: red;
+  font-size: large;
 }
+.titolo.due h1 {
+  color: blue;
+}
+.titolo:hover {
+  font-size: small;
+}
+
+.button, .button-primary {
+  font-size: 16px;
+  padding: 10px 20px;
+  background-color: yellow;
+  border: none;
+  display: inline-block;
+}
+
+.button-primary {
+  background-color: green;
+}
+
+/*# sourceMappingURL=style.css.map */

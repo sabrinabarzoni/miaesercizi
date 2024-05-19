@@ -1,0 +1,32 @@
+$red:red;
+
+.titolo {
+    h1{
+        color:$red;
+        font-size: large;
+    }
+    &.due {
+        h1 {
+            color: blue;
+        }
+        
+    }
+    &:hover {
+       font-size: small;
+    }
+    
+ }
+
+    .button {
+        font-size: 16px;
+        padding: 10px 20px;
+        background-color: yellow;
+        border: none;
+        display:inline-block;
+    }
+
+    .button-primary {
+        @extend .button;
+        background-color: green;
+    }
+
