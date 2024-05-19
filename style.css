@@ -1,24 +1,18 @@
-.titolo h1 {
-  color: red;
-  font-size: large;
+.navbar {
+  border: 1px solid black;
 }
-.titolo.due h1 {
-  color: blue;
+.navbar ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  justify-content: center;
+  padding-left: 0;
 }
-.titolo:hover {
-  font-size: small;
+.navbar ul li {
+  font-size: 18px;
 }
-
-.button, .button-primary {
-  font-size: 16px;
-  padding: 10px 20px;
-  background-color: yellow;
-  border: none;
-  display: inline-block;
-}
-
-.button-primary {
-  background-color: green;
+.navbar ul li:hover {
+  color: #ff0000;
 }
 
 /*# sourceMappingURL=style.css.map */

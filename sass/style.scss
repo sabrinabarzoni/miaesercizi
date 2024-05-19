@@ -1,32 +1,19 @@
-$red:red;
-
-.titolo {
-    h1{
-        color:$red;
-        font-size: large;
-    }
-    &.due {
-        h1 {
-            color: blue;
-        }
+.navbar {
+    border: 1px solid black;
+    ul {
+        display: flex;
+        gap: 30px;
+        list-style: none;
+        justify-content: center;
+        padding-left: 0;
         
-    }
-    &:hover {
-       font-size: small;
-    }
-    
- }
+        li {
+            font-size: 18px;
+            &:hover {
+                color:#ff0000;
+            }
 
-    .button {
-        font-size: 16px;
-        padding: 10px 20px;
-        background-color: yellow;
-        border: none;
-        display:inline-block;
+        }
     }
 
-    .button-primary {
-        @extend .button;
-        background-color: green;
-    }
-
+}
