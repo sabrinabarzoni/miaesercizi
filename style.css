@@ -1,3 +1,7 @@
+.border, .navbar ul li:last-child {
+  border: 1px solid #333333;
+}
+
 .navbar {
   background-color: #ffc0cb;
 }
@@ -9,6 +13,7 @@
   padding-left: 0;
 }
 .navbar ul li {
+  background-color: #e7e7e7;
   color: #0000ff;
   font-size: 18px;
 }
