@@ -4,18 +4,12 @@
 .theme-light li {
   color: #0000ff;
 }
-.theme-light li:hover {
-  color: #ff0000;
-}
 
 .theme-dark, .navbar {
   background-color: #000000;
 }
 .theme-dark li, .navbar li {
   color: #ffffff;
-}
-.theme-dark li:hover, .navbar li:hover {
-  color: #ffff00;
 }
 
 .border, .navbar ul li:last-child {

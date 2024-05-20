@@ -1,15 +1,23 @@
 @import 'variables';
 $widht-div: 200px;
 $font-size: 18px;
+$noHover: true;
 
 
 @mixin theme($bg-color, $text-color, $hover-color) {
     background-color: $bg-color;
     li {
-        color: $text-color;
-        &:hover {
+        @if $noHover {
+            color: $text-color;  
+            
+        } @else {
+            color: $text-color;
+            &:hover {
             color: $hover-color;
-        }
+        }}
+       
+        
+        
     }
   
 }
