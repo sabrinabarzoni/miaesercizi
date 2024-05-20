@@ -1,20 +1,20 @@
-.theme-light, .navbar {
+.theme-light {
   background-color: #ffc0cb;
 }
-.theme-light li, .navbar li {
+.theme-light li {
   color: #0000ff;
 }
-.theme-light li:hover, .navbar li:hover {
+.theme-light li:hover {
   color: #ff0000;
 }
 
-.theme-dark {
+.theme-dark, .navbar {
   background-color: #000000;
 }
-.theme-dark li {
+.theme-dark li, .navbar li {
   color: #ffffff;
 }
-.theme-dark li:hover {
+.theme-dark li:hover, .navbar li:hover {
   color: #ffff00;
 }
 
@@ -35,7 +35,8 @@
 .navbar ul li {
   background-color: #e7e7e7;
   /*color: $primary-color;*/
-  font-size: 18px;
+  /* font-size: $font-size;*/
+  font-size: 1.3888888889em;
 }
 .navbar ul li:hover {
   /* color: $color-hover;*/

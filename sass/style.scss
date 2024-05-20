@@ -2,6 +2,7 @@
 $widht-div: 200px;
 $font-size: 18px;
 
+
 @mixin theme($bg-color, $text-color, $hover-color) {
     background-color: $bg-color;
     li {
@@ -24,6 +25,11 @@ $font-size: 18px;
 .border {
     border: 1px solid #333333;
 }
+
+@function font-em($px-value,$fs-px){
+    @return calc($px-value / $fs-px)*1em
+}
+
 .navbar {
   /*  background-color: $background-color-light;*/
     @extend .theme-dark;
@@ -37,7 +43,8 @@ $font-size: 18px;
         li {
             background-color: $bg-color-item;
             /*color: $primary-color;*/
-            font-size: $font-size;
+           /* font-size: $font-size;*/
+            font-size: font-em(25px, $font-size);
             &:hover {
                /* color: $color-hover;*/
             }
