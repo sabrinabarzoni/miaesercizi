@@ -2,6 +2,7 @@
 $widht-div: 200px;
 $font-size: 18px;
 $noHover: true;
+$colors:#ff00ff,#00ff00,#000f44,#fff000;
 
 
 @mixin theme($bg-color, $text-color, $hover-color) {
@@ -82,5 +83,11 @@ $noHover: true;
     $grey: if($i == 1,lightgrey,darkgrey);
     .box div:nth-child(#{$i}){
         background-color: $grey;
+    }
+}
+
+@each $color in $colors {
+    .menucolor-#{index($colors,$color)} {
+        color:$color;
     }
 }
