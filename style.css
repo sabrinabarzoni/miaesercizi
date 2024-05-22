@@ -42,4 +42,12 @@
   width: 200px/3;
 }
 
+.box div:nth-child(1) {
+  background-color: lightgrey;
+}
+
+.box div:nth-child(2) {
+  background-color: darkgrey;
+}
+
 /*# sourceMappingURL=style.css.map */

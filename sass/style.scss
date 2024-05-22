@@ -77,3 +77,10 @@ $noHover: true;
         width: calc($widht-div) / 3;
     }
 }
+
+@for $i from 1 through 2 {
+    $grey: if($i == 1,lightgrey,darkgrey);
+    .box div:nth-child(#{$i}){
+        background-color: $grey;
+    }
+}
