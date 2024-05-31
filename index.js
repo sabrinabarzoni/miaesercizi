@@ -24,7 +24,7 @@ let number = 12;
 }
 console.log(number);
 
-esercizio 4 */
+esercizio 4 
 
 let outside = 22;
 
@@ -36,3 +36,12 @@ let outside = 22;
 
 console.log(inside);
 console.log(outside);
+
+esercizio 5 */
+
+for (let i = 0; i<=20;i++){
+    if(i % 2 == 0) {
+        console.log(i)
+    }
+}
+
