@@ -6,12 +6,21 @@ const variabile2 =50;
 console.log(variabile1);
 console.log(variabile2);
  
-esercizio 2 */
+esercizio 2 
 
 let n = 5;
-
 console.log(n);
 
 n = 7;
- 
 console.log(n);
+
+esercizio 3 */
+
+let number = 12;
+
+{
+    let number = 20;
+    console.log(number);
+}
+
+console.log(number);
