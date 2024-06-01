@@ -45,10 +45,14 @@ for (let i = 0; i<=20;i++){
     }
 }
 
-esercizio 6 */
+esercizio 6 
 
 let i = 9;
 while (i > 0) {
     console.log(i);
     i -= 2;
 }
+
+esercizio 7 */
+
+let word ="hello"
