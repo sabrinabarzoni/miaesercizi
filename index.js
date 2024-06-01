@@ -37,7 +37,7 @@ let outside = 22;
 console.log(inside);
 console.log(outside);
 
-esercizio 5 */
+esercizio 5 
 
 for (let i = 0; i<=20;i++){
     if(i % 2 == 0) {
@@ -45,3 +45,10 @@ for (let i = 0; i<=20;i++){
     }
 }
 
+esercizio 6 */
+
+let i = 9;
+while (i > 0) {
+    console.log(i);
+    i -= 2;
+}
