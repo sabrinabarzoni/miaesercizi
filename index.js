@@ -55,4 +55,6 @@ while (i > 0) {
 
 esercizio 7 */
 
-let word ="hello"
+let word ="hello";
+
+console.log(word.length);
