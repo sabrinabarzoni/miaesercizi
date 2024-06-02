@@ -59,7 +59,7 @@ let word ="hello";
 
 console.log(word.length);
 
-esercizio 8  */
+esercizio 8  
 
 let parola = "";
 
@@ -68,3 +68,12 @@ do {
 } while (parola.length < 5);
 
 console.log("Hai inserito la parola:", parola);
+
+esercizio 9 */
+
+let number = 3;
+
+if(number > 5 ){
+console.log("la variabile è maggiore di 5")}
+else {
+console.log("la variabile è minore di 5")}
