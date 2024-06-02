@@ -53,8 +53,18 @@ while (i > 0) {
     i -= 2;
 }
 
-esercizio 7 */
+esercizio 7
 
 let word ="hello";
 
 console.log(word.length);
+
+esercizio 8  */
+
+let parola = "";
+
+do {
+    parola = prompt("Inserisci una parola di 5 lettere:");
+} while (parola.length < 5);
+
+console.log("Hai inserito la parola:", parola);
