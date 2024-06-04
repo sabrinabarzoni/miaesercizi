@@ -69,7 +69,7 @@ do {
 
 console.log("Hai inserito la parola:", parola);
 
-esercizio 9 */
+esercizio 9 
 
 let number = 3;
 
@@ -77,3 +77,25 @@ if(number > 5 ){
 console.log("la variabile è maggiore di 5")}
 else {
 console.log("la variabile è minore di 5")}
+
+esercizio 10 
+let score = score = prompt("inserisci un numero");
+
+
+
+if(score <= 100 && score >= 90){
+    console.log("voto ottimo")
+}
+else if(score <= 70 && score >= 89){
+    console.log("voto buono")
+}
+else(score <= 59){
+    console.log("voto insufficiente")
+}
+
+?? 
+
+esercizio 12*/
+
+let numeri = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+console.log(numeri)
