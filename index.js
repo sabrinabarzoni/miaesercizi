@@ -109,7 +109,7 @@ let somma = 0
     somma += numeri[i];
     console.log(somma)
  }
-*/
+
 
 //esercizio 14
 
@@ -121,17 +121,18 @@ for(let i = numeri.length - 1;i >= 0;i--) {
 }
 
 console.log(numeriinvertiti)
-//esercizio 15 
+//esercizio 15 */
 
-/*let parole = [];
+var parole = [];
 
 for (let i = 0; i < 5; i++) {
     let parola = prompt("Inserisci una parola:");
-    parole.push(parola)
+    if(parola.length % 2 !== 0){
+        parole.push(parola);
+        console.log(parole)
+    }
 }
-console.log(parole);
 
-for (let i = 0; parola.length <= 5; i++) {
-    console.log(parola)
-} */
+
+
 
