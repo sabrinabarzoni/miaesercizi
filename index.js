@@ -95,12 +95,13 @@ else(score <= 59){
 
 ?? 
 
-esercizio 12
+
+esercizio 12 
 
 let numeri = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 console.log(numeri)
 
-esercizio 13 */
+//esercizio 13 
 
 let numeri = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 let somma = 0
@@ -108,3 +109,29 @@ let somma = 0
     somma += numeri[i];
     console.log(somma)
  }
+*/
+
+//esercizio 14
+
+let numeri = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let numeriinvertiti = [];
+
+for(let i = numeri.length - 1;i >= 0;i--) {
+    numeriinvertiti.push(numeri[i])
+}
+
+console.log(numeriinvertiti)
+//esercizio 15 
+
+/*let parole = [];
+
+for (let i = 0; i < 5; i++) {
+    let parola = prompt("Inserisci una parola:");
+    parole.push(parola)
+}
+console.log(parole);
+
+for (let i = 0; parola.length <= 5; i++) {
+    console.log(parola)
+} */
+
