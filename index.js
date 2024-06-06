@@ -152,3 +152,9 @@ let person = {
 }
 
 console.log(person.age);
+
+esercizio 18 
+
+person.age = 40;
+
+console.log(person);
