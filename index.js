@@ -133,7 +133,7 @@ for (let i = 0; i < 5; i++) {
     }
 }
 
-esercizio 16 */
+esercizio 16 
 
 let person = {
     name: "Mario",
@@ -143,4 +143,12 @@ let person = {
 console.log(person);
 
 
+esercizio 17 */
 
+let person = {
+    name: "Mario",
+    age:30,
+    city: "Verona",
+}
+
+console.log(person.age);
