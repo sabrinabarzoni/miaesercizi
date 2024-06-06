@@ -159,7 +159,7 @@ person.age = 40;
 
 console.log(person);
 
-esercizio 19 */
+esercizio 19 
 
 let person = {
     name: "Mario",
@@ -170,3 +170,15 @@ let person = {
 person.job = "meccanico";
 
 console.log(person);
+
+esercizio 20 */
+
+let person = {
+    name: "Mario",
+    age:30,
+    city: "Verona",
+}
+
+for(let prop in person){
+    console.log(prop + ":"+person[prop]);
+}
