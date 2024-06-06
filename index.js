@@ -121,7 +121,7 @@ for(let i = numeri.length - 1;i >= 0;i--) {
 }
 
 console.log(numeriinvertiti)
-//esercizio 15 */
+//esercizio 15 
 
 var parole = [];
 
@@ -133,6 +133,14 @@ for (let i = 0; i < 5; i++) {
     }
 }
 
+esercizio 16 */
+
+let person = {
+    name: "Mario",
+    age:30,
+    city: "Verona",
+}
+console.log(person);
 
 
 
