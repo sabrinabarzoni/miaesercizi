@@ -143,7 +143,7 @@ let person = {
 console.log(person);
 
 
-esercizio 17 */
+esercizio 17 
 
 let person = {
     name: "Mario",
@@ -156,5 +156,17 @@ console.log(person.age);
 esercizio 18 
 
 person.age = 40;
+
+console.log(person);
+
+esercizio 19 */
+
+let person = {
+    name: "Mario",
+    age:30,
+    city: "Verona",
+}
+
+person.job = "meccanico";
 
 console.log(person);
