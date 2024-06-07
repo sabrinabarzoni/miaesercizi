@@ -171,7 +171,7 @@ person.job = "meccanico";
 
 console.log(person);
 
-esercizio 20 */
+esercizio 20 
 
 let person = {
     name: "Mario",
@@ -182,3 +182,19 @@ let person = {
 for(let prop in person){
     console.log(prop + ":"+person[prop]);
 }
+
+esercizio 21 */
+
+let score = prompt("inserisci un numero");
+let n = parseInt(score);
+
+if(n <= 100 && n >= 90){
+    console.log("voto ottimo");
+}else if(n <= 89 && n >= 70){
+    console.log("voto buono");
+}else if(n >= 60 && n <= 69){
+    console.log("voto sufficiente");
+}else if(n <= 50){
+    console.log("voto insufficiente");
+}
+
