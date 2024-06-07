@@ -198,7 +198,7 @@ if(n <= 100 && n >= 90){
     console.log("voto insufficiente");
 }
 
-esercizio 22 */
+esercizio 22 
 let score = prompt("inserisci un numero");
 let n = parseInt(score);
 
@@ -218,3 +218,16 @@ switch (true){
 
 
 }
+
+esercizio 23 */
+
+function outerFuncion(x) {
+    function innerFuncion(y) {
+        return x+y;
+    }
+    return innerFuncion;
+}
+
+let somma = outerFuncion(2)(1);
+
+console.log(somma);
