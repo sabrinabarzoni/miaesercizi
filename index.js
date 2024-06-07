@@ -183,7 +183,7 @@ for(let prop in person){
     console.log(prop + ":"+person[prop]);
 }
 
-esercizio 21 */
+esercizio 21 
 
 let score = prompt("inserisci un numero");
 let n = parseInt(score);
@@ -198,3 +198,23 @@ if(n <= 100 && n >= 90){
     console.log("voto insufficiente");
 }
 
+esercizio 22 */
+let score = prompt("inserisci un numero");
+let n = parseInt(score);
+
+switch (true){
+    case (n <= 100 && n >= 90):
+         console.log("voto ottimo");
+    break;
+    case (n <= 89 && n >= 70):
+        console.log("voto buono");
+        break;
+    case (n >= 60 && n <= 69):
+        console.log("voto sufficiente");
+        break;
+    case (n <= 50):
+        console.log("voto insufficiente");
+
+
+
+}
