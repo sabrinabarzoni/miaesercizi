@@ -221,13 +221,13 @@ switch (true){
 
 esercizio 23 */
 
-function outerFuncion(x) {
+function outerFuncion(x,initialValue) {
+    let result = initialValue;
     function innerFuncion(y) {
-        return x+y;
+        return result += y;
     }
     return innerFuncion;
 }
 
-let somma = outerFuncion(2)(1);
-
+let somma = outerFuncion(2,5)(4);
 console.log(somma);
