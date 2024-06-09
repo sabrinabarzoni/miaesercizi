@@ -245,7 +245,7 @@ let student = {
 
 console.log(Object.keys(student));
 
-esercizio 26 */
+esercizio 26
 
 let student = {
     name: "Mario",
@@ -255,3 +255,15 @@ let student = {
 }
 
 console.log(Object.values(student));
+
+esercizio 27 */
+
+let student = {
+    name: "Mario",
+    age: "17",
+    grade:"11",
+    school:"high school"
+}
+
+for (const [chiave, valore] of Object.entries(student)) {
+    console.log(`${chiave}: ${valore}`)}
