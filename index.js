@@ -219,7 +219,7 @@ switch (true){
 
 }
 
-esercizio 23 */
+esercizio 23 
 
 function outerFuncion(x,initialValue) {
     let result = initialValue;
@@ -231,3 +231,17 @@ function outerFuncion(x,initialValue) {
 
 let somma = outerFuncion(2,5)(4);
 console.log(somma);
+
+esercizio 24 
+
+esercizio 25 */
+
+let student = {
+    name: "",
+    age: "",
+    grade:"",
+    school:""
+}
+
+console.log(Object.keys(student));
+
