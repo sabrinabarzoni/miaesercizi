@@ -234,14 +234,24 @@ console.log(somma);
 
 esercizio 24 
 
-esercizio 25 */
+esercizio 25
 
 let student = {
-    name: "",
-    age: "",
-    grade:"",
-    school:""
+    name: "Mario",
+    age: "17",
+    grade:"11",
+    school:"high school"
 }
 
 console.log(Object.keys(student));
 
+esercizio 26 */
+
+let student = {
+    name: "Mario",
+    age: "17",
+    grade:"11",
+    school:"high school"
+}
+
+console.log(Object.values(student));
