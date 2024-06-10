@@ -280,7 +280,7 @@ const squareNumbers = numbers.map(Math.sqrt);
 
 console.log(squareNumbers);
 
-esercizio 29  */
+esercizio 29  
 
 let students = [
     {name:"Mario", grade:90},
@@ -297,4 +297,18 @@ let lastStudent = students.find(students => students.grade < 60);
 
 console.log(lastStudent);
 
+esercizio 30 */
 
+let expenses = [30, 5, 20, 3, 9];
+
+let totalExpense = expenses.reduce((accumulator, currentValue) => { 
+    return (accumulator + currentValue);
+},0);
+
+console.log(totalExpense);
+
+let words = ["banana", "apple", "cherry", "date"];
+
+words.sort();
+
+console.log(words);
