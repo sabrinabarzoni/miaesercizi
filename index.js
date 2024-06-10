@@ -268,7 +268,7 @@ let student = {
 for (const [chiave, valore] of Object.entries(student)) {
     console.log(`${chiave}: ${valore}`)}
 
-eseercizio 28  */
+eseercizio 28
 
 let numbers = [1, 2, 3, 4, 5];
 
@@ -279,3 +279,22 @@ numbers.forEach(function(number) {
 const squareNumbers = numbers.map(Math.sqrt);
 
 console.log(squareNumbers);
+
+esercizio 29  */
+
+let students = [
+    {name:"Mario", grade:90},
+    {name:"Paolo", grade:68},
+    {name:"Sara", grade:57},
+    {name:"Maria", grade:40}
+];
+
+let passedStudents = students.filter(students => students.grade >= 60);
+
+console.log(passedStudents);
+
+let lastStudent = students.find(students => students.grade < 60);
+
+console.log(lastStudent);
+
+
