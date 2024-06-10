@@ -256,7 +256,7 @@ let student = {
 
 console.log(Object.values(student));
 
-esercizio 27 */
+esercizio 27
 
 let student = {
     name: "Mario",
@@ -267,3 +267,15 @@ let student = {
 
 for (const [chiave, valore] of Object.entries(student)) {
     console.log(`${chiave}: ${valore}`)}
+
+eseercizio 28  */
+
+let numbers = [1, 2, 3, 4, 5];
+
+numbers.forEach(function(number) {
+    console.log(number * 2);
+})
+
+const squareNumbers = numbers.map(Math.sqrt);
+
+console.log(squareNumbers);
