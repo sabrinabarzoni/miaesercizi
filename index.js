@@ -311,7 +311,9 @@ let words = ["banana", "apple", "cherry", "date"];
 
 words.sort();
 
-console.log(words);*/
+console.log(words);
+
+esercizio 31
 
 function createCounter() {
     let count = 0;
@@ -330,3 +332,28 @@ function createCounter() {
 let counter = createCounter();
 
 console.log(counter.increment());
+
+esercizio 32 
+
+
+class Automobile {
+    marca;
+    modello;
+    anno;
+
+    constructor(marca, modello, anno){
+        this.marca = marca;
+        this.modello = modello;
+        this.anno = anno;
+    }
+
+    descrizione(){
+        return `l'automobile è una ${this.marca}, di colore blu. il ${this.modello} è punto uscita nell'anno ${this.anno}`;
+    }
+}
+
+let auto = new Automobile("bmw", "classe A", "2000");
+let auto2 = new Automobile("fiat", "punto", "2005");
+console.log(auto2.descrizione());
+
+esercizio 33 */
