@@ -297,7 +297,7 @@ let lastStudent = students.find(students => students.grade < 60);
 
 console.log(lastStudent);
 
-esercizio 30 */
+esercizio 30 
 
 let expenses = [30, 5, 20, 3, 9];
 
@@ -311,4 +311,22 @@ let words = ["banana", "apple", "cherry", "date"];
 
 words.sort();
 
-console.log(words);
+console.log(words);*/
+
+function createCounter() {
+    let count = 0;
+    return {
+        increment: function () {
+            count++;
+            return count;
+        },
+        decrement: function () {
+            count--;
+            return count;
+        }
+    }
+}
+
+let counter = createCounter();
+
+console.log(counter.increment());
