@@ -333,27 +333,43 @@ let counter = createCounter();
 
 console.log(counter.increment());
 
-esercizio 32 
+esercizio 32 */
 
 
 class Automobile {
     marca;
     modello;
     anno;
+    chilometraggio;
 
-    constructor(marca, modello, anno){
+    constructor(marca, modello, anno, chilometraggio){
         this.marca = marca;
         this.modello = modello;
         this.anno = anno;
+        this.chilometraggio = chilometraggio;
     }
 
     descrizione(){
         return `l'automobile è una ${this.marca}, di colore blu. il ${this.modello} è punto uscita nell'anno ${this.anno}`;
     }
+
+    aggiungiChilometri(km){
+        this.chilometraggio += km;
+    }
+
+    mostraChilometraggio(){
+        return this.chilometraggio;
+    }
 }
 
-let auto = new Automobile("bmw", "classe A", "2000");
+
+let auto = new Automobile("bmw", "classe A", "2000", 100);
 let auto2 = new Automobile("fiat", "punto", "2005");
+
+console.log(auto.mostraChilometraggio());
+
 console.log(auto2.descrizione());
 
-esercizio 33 
+auto.aggiungiChilometri(50);
+
+
