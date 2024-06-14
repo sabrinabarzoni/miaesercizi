@@ -356,4 +356,4 @@ let auto = new Automobile("bmw", "classe A", "2000");
 let auto2 = new Automobile("fiat", "punto", "2005");
 console.log(auto2.descrizione());
 
-esercizio 33 */
+esercizio 33 
