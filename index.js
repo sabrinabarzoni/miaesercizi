@@ -362,6 +362,19 @@ class Automobile {
     }
 }
 
+class Elettrica extends Automobile{
+    autonomia;
+    constructor(marca, modello, anno, chilometraggio,autonomia){
+        super(marca, modello, anno, chilometraggio);
+        this.autonomia = autonomia;
+    }
+    descrizione(){
+        return `l'automobile è una ${this.marca}, di colore blu. il ${this.modello} è punto uscita nell'anno ${this.anno} ed ha un autonomia di ${this.autonomia}`;
+    }
+    ricarica(km){
+        this.autonomia += km;
+    }
+}
 
 let auto = new Automobile("bmw", "classe A", "2000", 100);
 let auto2 = new Automobile("fiat", "punto", "2005");
