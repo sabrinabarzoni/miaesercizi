@@ -342,12 +342,31 @@ class Automobile {
     anno;
     chilometraggio;
 
+
     constructor(marca, modello, anno, chilometraggio){
         this.marca = marca;
         this.modello = modello;
         this.anno = anno;
         this.chilometraggio = chilometraggio;
     }
+
+    #calcolaEta(){
+        const annoCorrente = new Date().getFullYear();
+        
+        console.log(annoCorrente);
+        console.log(this.anno)
+        return annoCorrente - this.anno;
+
+
+    }
+
+    mostraEta(){
+        const eta = this.#calcolaEta();
+        return `Quest'automobile ha ${eta} anni`
+    }
+
+
+
 
     descrizione(){
         return `l'automobile è una ${this.marca}, di colore blu. il ${this.modello} è punto uscita nell'anno ${this.anno}`;
@@ -376,8 +395,8 @@ class Elettrica extends Automobile{
     }
 }
 
-let auto = new Automobile("bmw", "classe A", "2000", 100);
-let auto2 = new Automobile("fiat", "punto", "2005");
+let auto = new Automobile("bmw", "classe A", 2000, 100);
+let auto2 = new Automobile("fiat", "punto", 2005);
 
 console.log(auto.mostraChilometraggio());
 
@@ -392,7 +411,7 @@ Automobile.prototype.saluta = function () {
     return `ciao questa è una ${this.marca} ${this.modello}`;
   };
 
-  console.log(auto.saluta())
+  console.log(auto.mostraEta())
 
   
 
