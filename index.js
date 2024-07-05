@@ -365,7 +365,16 @@ class Automobile {
         return `Quest'automobile ha ${eta} anni`
     }
 
-
+    _controllaChilometri(){
+        const limiteChilometri = 100000;
+        if(this.chilometraggio > limiteChilometri){
+            return `Questa macchina supera il limite di ${limiteChilometri}`
+        }
+        else{
+            return `Il chilometraggio di questa macchina rispetta i limiti`
+        }
+        
+    }
 
 
     descrizione(){
@@ -393,7 +402,12 @@ class Elettrica extends Automobile{
     ricarica(km){
         this.autonomia += km;
     }
+    mostraAvvisoChilometraggio(){
+        return this._controllaChilometri();
+    }
+
 }
+
 
 let auto = new Automobile("bmw", "classe A", 2000, 100);
 let auto2 = new Automobile("fiat", "punto", 2005);
