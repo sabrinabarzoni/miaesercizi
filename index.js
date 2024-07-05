@@ -383,6 +383,84 @@ console.log(auto.mostraChilometraggio());
 
 console.log(auto2.descrizione());
 
-auto.aggiungiChilometri(50);
+auto.aggiungiChilometri(50); 
 
+let buttons = document.querySelectorAll(".btn");
+console.log(buttons)
+
+Automobile.prototype.saluta = function () {
+    return `ciao questa è una ${this.marca} ${this.modello}`;
+  };
+
+  console.log(auto.saluta())
+
+  
+
+
+for(let i = 0; i<buttons.length; i++){
+    buttons[i].addEventListener("click", function(){
+        alert("ciao")
+    })
+}
+
+
+
+const data = [
+    { nome: "Mario Rossi", eta: 30, email: "mario.rossi@example.com" },
+    { nome: "Luigi Bianchi", eta: 25, email: "luigi.bianchi@example.com" },
+    { nome: "Anna Verdi", eta: 28, email: "anna.verdi@example.com" }
+];
+
+let PopolationTable = (array) => {
+    let tableBody = document.querySelector("tbody");
+    tableBody.innerHTML = '';
+    array.forEach(element => {
+        const riga = document.createElement("tr");
+        Object.values(element).forEach(text => {
+            const cella = document.createElement("td");
+            cella.textContent = text;
+            riga.appendChild(cella)
+        })
+        tableBody.appendChild(riga)
+    });
+}
+
+PopolationTable(data)
+
+let searchTable = (event) => {
+    const searchTerm = event.target.value.toLowerCase();
+    const filteredData = data.filter(item => 
+        item.nome.toLowerCase().includes(searchTerm) ||
+        item.eta.toString().includes(searchTerm) ||
+        item.email.toLowerCase().includes(searchTerm)
+    );
+    PopolationTable(filteredData);
+}
+
+document.getElementById('search').addEventListener('input', searchTable);
+
+
+const btnIncrement = document.querySelector(".increment");
+const btnDecrement = document.querySelector(".decrement");
+
+
+const Increment = () => {
+    let element = document.querySelector(".value"); //selezioniamo lo span con il numero dentro
+    let value = parseInt(element.textContent) //trasformiamo in numero la stringa all'interno dello span 
+    value++; // incrementiamo il valore ad ogni click
+    element.textContent = value; //riselezioniamo lo span che rendiamo al nuovo valore (che si incrementa (value++))
+}
+
+btnIncrement.addEventListener("click", Increment);// criamo l'evento clik
+
+const Decrement = () => {
+    let element = document.querySelector(".value"); //selezioniamo lo span con il numero dentro
+    let value = parseInt(element.textContent) //trasformiamo in numero la stringa all'interno dello span 
+    if (value > 0) { //controlliamo che il valore sia maggiore di 0 per far si che lo span non abbia valori negativi
+        value--; // decrementiamo il valore ad ogni click
+        element.textContent = value; //riselezioniamo lo span che rendiamo al nuovo valore (che si decrementa (value--))
+    }
+};
+
+btnDecrement.addEventListener("click", Decrement);
 
