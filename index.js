@@ -388,6 +388,17 @@ class Automobile {
     mostraChilometraggio(){
         return this.chilometraggio;
     }
+
+    static confrontaChilometraggio(auto1, auto2){
+        if(auto1.chilometraggio > auto2.chilometraggio){
+            return `L'auto1 ha piu chilometri dell'auto2`
+        }
+        else if(auto1.chilometraggio < auto2.chilometraggio){
+            return `L'auto2 ha piu chilometri dell'auto2`
+        }else{
+            return `L'auto1 ha lo stesso chilometraggio dell'auto2`
+        }
+    }
 }
 
 class Elettrica extends Automobile{
